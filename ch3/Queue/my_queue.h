@@ -1,5 +1,6 @@
 #ifndef _MY_QUEUE_H_
 #define _MY_QUEUE_H_
+#include <list>
 
 class MyQueue {
  public:
@@ -10,8 +11,6 @@ class MyQueue {
   int dequeue();
   int size();
  private:
-  int content[100];
-  int last;
-  int first;
+  std::list<int> content;
 };
 #endif // _MY_QUEUE_H_
