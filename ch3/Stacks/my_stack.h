@@ -1,5 +1,6 @@
 #ifndef _MYSTACK_H_
 #define _MYSTACK_H_
+#include <list>
 
 class MyStack {
  public:
@@ -11,8 +12,6 @@ class MyStack {
   int peek();
   int size();
  private:
-  int *content;
-  int actualSize;
-  int maxSize;
+  std::list<int> content;
 };
 #endif //_MYSTACK_H_

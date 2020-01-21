@@ -4,13 +4,13 @@ using namespace std;
 
 int main() {
   MyStack myStack;
-  cout << myStack.isEmpty() << endl;
+  cout << boolalpha << myStack.isEmpty() << endl;
   myStack.push(4);
   myStack.push(5);
   cout << myStack.peek() << endl;
   myStack.push(6);
   cout << myStack.size() << endl;
-  cout << myStack.isEmpty() << endl;
+  cout << boolalpha << myStack.isEmpty() << endl;
   myStack.push(7);
   cout << myStack.pop() << endl;
   cout << myStack.pop() << endl;
