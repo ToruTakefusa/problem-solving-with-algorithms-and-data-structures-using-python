@@ -31,3 +31,8 @@
 *.out
 *.app
 sample
+*.class
+
+# setting files
+workspace.xml
+tasks.xml
